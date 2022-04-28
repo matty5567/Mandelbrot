@@ -24,9 +24,9 @@ void calcMandelRow(int win_y, int win_width, int win_height, unsigned int* pixel
 			iteration++;
 		}
 
-		int red = 100 * iteration * iteration / max_iter * max_iter; //iteration * 255 / max_iter;
+		int red = 100 * iteration * iteration / max_iter * max_iter;
 		int blue = 255 * iteration * iteration / max_iter * max_iter;
-		int green = 50 * iteration * iteration / max_iter * max_iter; //iteration * 255 / max_iter;
+		int green = 50 * iteration * iteration / max_iter * max_iter;
 
 
 
